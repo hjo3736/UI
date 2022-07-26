@@ -27,17 +27,6 @@ public class Inventory : MonoBehaviour
         AddItem(new Item());
 
     }
-    private void Update()
-    {
-
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-
-            AddItem(items[0]);
-
-        }
-        
-    }
 
     public void FreeSlot()
     {
